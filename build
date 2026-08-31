@@ -5,10 +5,10 @@ set -e -x
 # Kernel Source
 KERNEL_SOURCE="https://github.com/mt6768-dev/android_kernel_xiaomi_mt6768.git"
 KERNEL_BRANCH="lineage-23.2"
-KERNEL_DEFCONFIG="lancelot_defconfig"
+KERNEL_DEFCONFIG="vendor/lancelot.config"
 
 # Prebuilt Clang Toolchain (AOSP)
-CLANG_URL="https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/master-kernel-build-2021/clang-r596125.tar.gz"
+CLANG_URL="https://android.googlesource.com/platform//prebuilts/clang/host/linux-x86/+archive/b669748458572622ed716407611633c5415da25c/clang-r416183b.tar.gz"
 
 # Prebuilt GCC Utilities (AOSP)
 GCC_x64="https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"
